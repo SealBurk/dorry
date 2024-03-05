@@ -42,7 +42,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 if game.PlaceId == 2753915549 then
 	print("ViciBee: Game ID is correct.")
 else
-	error('ViciBee: Incorrect Game ID, Join the following game!')
+	player:kick("ViciBee: Incorrect Game ID. Please use the script in the designated game.")
 end
 
 
