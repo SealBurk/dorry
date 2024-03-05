@@ -20,7 +20,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/ma
 -- Loaded Message
 print("Merged Script Credit - @viciousbeeplush - Main script composer - Unknown.")
 print("Script Loaded. - If it dosen't show up, it may be broken or didn't load successfully.")
-warn("NOTICE: Getting banned from using scripts cannot be releated to the exploit dealer, you're responsive about your account risks and accept the policies made by @viciousbeeplush.")
+
 
 -- Message here
 game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -28,6 +28,22 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "Merged Script By @viciousbeeplush";
 	Icon = "rbxassetid://16571046253";
 })
+
+wait(2)
+
+-- Message again
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "ViciBee Notice";
+	Text = "Any loss of account or non-releated is not responsive to @viciousbeeplush.";
+	Icon = "rbxassetid://11745872910";
+})
+
+-- Game Check
+if game.PlaceId == 2753915549 then
+	print("ViciBee: Game ID is correct.")
+else
+	error('ViciBee: Incorrect Game ID, Join the following game!')
+end
 
 
 
